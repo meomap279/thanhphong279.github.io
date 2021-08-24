@@ -89,7 +89,7 @@
                     body: new FormData(form)
                 })
                 .then(response => alert("You have successfully submitted!!!"))
-                .then(response => alert(document.location.replace('/home.html')))
+                .then(response => alert(document.location.replace('http://127.0.0.1:5500/home.html')))
                 .catch(error => console.error('Error!', error.message))
 
         })
